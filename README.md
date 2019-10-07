@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Composer template for Drupal projects
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
@@ -143,3 +144,7 @@ To prevent this you can add this code to specify the PHP version you want to use
     }
 },
 ```
+=======
+# Patchwerk_Radio
+Un site de web radio sous Drupal
+>>>>>>> c2382386b9eb4b68be91a623d89898ee40876c7d
