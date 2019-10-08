@@ -1,0 +1,106 @@
+.banner {
+  width: 620px;
+  height: 100px;
+  margin: 7px auto;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding-left: 190px;
+}
+
+.banner0 {
+  color: #37535B;
+  background: url(../images/bannerx.jpg) no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  font-family: "Arial Narrow";
+}
+
+.supTitle {
+  padding-top: 10px;
+  font-size: 36px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 100px;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+  width: 310px;
+  float: left;
+}
+
+.slogan {
+  float: right;
+  margin: 75px 145px 0px 0px;
+  font-size: 20px;
+}
+
+.layout-container-menu, .layout-content {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.menu--main .menu {
+  display: flex;
+  text-align: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.menu--main {
+  background-color: #fbc467;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+}
+
+.menu--main .menu .menu-item {
+  flex-grow: 1;
+}
+
+.menu--main:hover .menu .menu-item a:not(:hover) {
+  color: #241c69;
+}
+
+.menu--main .menu .menu-item a {
+  display: block;
+  padding: 2rem 1.5rem;
+  will-change: color;
+  transition: color .25s ease-out;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu--main .menu .menu-item a:focus {
+  outline: 2px solid #fff;
+}
+
+/* hover animation */
+.menu--main .menu .menu-item a::before,
+.menu--main .menu .menu-item a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  will-change: width;
+  transition: width .05s ease-out;
+  position: absolute;
+  bottom: 0;
+}
+
+.menu--main .menu .menu-item a::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu--main .menu .menu-item a::after {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.menu--main .menu .menu-item a::before,
+.menu--main .menu .menu-item a::after {
+  width: 100%;
+  transition-duration: .15s;
+}

@@ -1,0 +1,12 @@
+# Patchwerk.libraries.yml
+global-styling:
+  version:            VERSION
+  css:
+    theme:
+      css/layout.css: {}
+      css/style.css:  {}
+      css/color.css:  {}
+  js:
+    js/script.js:     {}
+  dependencies:
+    - core/jquery

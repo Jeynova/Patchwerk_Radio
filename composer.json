@@ -27,6 +27,8 @@
         "drupal/core": "^8.7.0",
         "drupal/css_editor": "^1.2",
         "drupal/ds": "^3.4",
+        "drupal/field_formatter": "^1.2",
+        "drupal/menus_attribute": "^1.1",
         "drupal/webform": "^5.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
